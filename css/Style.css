@@ -1,22 +1,30 @@
-﻿@media (max-width: 600px)
+﻿@media (max-width: 700px)
 {
+    html {
+        font-size: 4vi;
+    }
     .SelectorTable {
         background-color: #9CB6BE;
-        padding: 10px;
-        width: fit-content;
+        width: inherit;
         height: fit-content;
-        border-radius: 15px;
+        margin: 2vi;
+        border-radius: 3vi;
+    }
+    .tTable {
+        width: 100%;
         align-content: space-evenly;
-        margin-right: auto;
-        margin-left: auto;
+        margin: 1vi auto;
+        display: table;
+        padding: 10px;
+
     }
 
     .SelectTableElement {
-        height: 4em;
-        width: 3.5em;
+        height: 14.5vi;
+        width: 12.6875vi;
         text-align: center;
         background-color: #45616A;
-        border-radius: 15px;
+        border-radius: 3vi;
         transition: background-color 0.2s, transform 0.2s;
         align-content: space-around;
     }
@@ -26,11 +34,11 @@
         }
 
     .SelectTableElementActivated {
-        height: 4em;
-        width: 3.5em;
+        height: 14.5vi;
+        width: 12.6875vi;
         text-align: center;
         background-color: #467155;
-        border-radius: 15px;
+        border-radius: 3vi;
         transition: background-color 0.2s, transform 0.2s;
         align-content: space-around;
     }
@@ -42,12 +50,13 @@
     .SelectTableElementStr {
         color: #E5E5E5;
         user-select: none;
-        font-family: Consolas;
         align-content: center;
         text-align: center;
         height: 15px;
         margin: 5px;
-        vertical-align: baseline;
+        vertical-align: central;
+        font-size: 3vi;
+        offset-anchor: center;
     }
 
     .TableTable {
@@ -59,9 +68,9 @@
         margin-left: auto;
         margin-right: auto;
         padding: 1em;
-        border-radius: 10%;
+        border-radius: 3vi;
         text-align: center;
-        font-size: 18px;
+        font-size: 3.5vi;
     }
 
     .HorizontalStackPanel {
@@ -70,15 +79,15 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: row;
-        margin: 0 10px;
+        margin: 0 2vi;
     }
 
     .ClearBtn {
         background-color: #45616A;
         width: fit-content;
         height: fit-content;
-        border-radius: 10%;
-        margin: 0;
+        border-radius: 1.5vi;
+        margin: 1vi;
         border: 0px;
         padding: 0.5em;
         color: #E5E5E5;
@@ -86,6 +95,7 @@
         position: absolute;
         right: 0;
         display: block;
+        font-size: 3vi;
     }
 
         .ClearBtn:hover {
@@ -96,7 +106,7 @@
         background-color: #45616A;
         width: fit-content;
         height: fit-content;
-        border-radius: 10%;
+        border-radius: 1.5vi;
         margin-right: auto;
         margin-left: auto;
         border: 0px;
@@ -104,6 +114,7 @@
         color: #E5E5E5;
         transition: transform 0.2s;
         display: block;
+        font-size: 5vi;
     }
 
         .SummonBtn:hover {
@@ -111,7 +122,6 @@
         }
 
     h1, h4 {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
         color: #E5E5E5;
     }
@@ -134,24 +144,24 @@
         text-align: center;
         color: #333333;
         font-weight: 500;
-        font-size: 20px;
     }
 
     .OutputString {
-        font-family: Consolas;
         border: 1px solid;
-        width: 250px;
-        height: 75px;
+        width: 75vi;
+        min-height: 50vi;
+        height: fit-content;
         text-align: center;
         margin: 10px auto;
         display: block;
+        font-size: 2vi;
     }
 
     .frame {
         display: block;
         margin: 10px auto;
-        width: 300px;
-        height: 300px;
+        width: 95vi;
+        height: 100vi;
     }
 
     footer {
@@ -165,7 +175,6 @@
     }
 
     a {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
         color: #E5E5E5;
         font-weight: 500;
@@ -173,7 +182,7 @@
         display: block;
     }
 }
-@media (min-width: 600px)
+@media (min-width: 700px)
 {
     .SelectorTable {
         background-color: #9CB6BE;
@@ -219,7 +228,6 @@
     .SelectTableElementStr {
         color: #E5E5E5;
         user-select: none;
-        font-family: Consolas;
         align-content: center;
         text-align: center;
         height: 15px;
@@ -310,7 +318,6 @@
     }
 
     p {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
         color: #333333;
         font-weight: 500;
@@ -318,10 +325,11 @@
     }
 
     .OutputString {
-        font-family: Consolas;
+         
         border: 1px solid;
         width: 300px;
-        height: 100px;
+        min-height: 100px;
+        height: fit-content;
         text-align: center;
         margin: 10px auto;
         display: block;
