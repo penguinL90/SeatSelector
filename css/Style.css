@@ -187,8 +187,11 @@
         text-align: center;
         color: #E5E5E5;
         font-weight: 500;
-        font-size: 12px;
         display: block;
+    }
+    .FooterStr {
+        color: #E5E5E5;
+        font-size: 3vi;
     }
 }
 @media (min-width: 700px)
@@ -369,5 +372,9 @@
         font-weight: 500;
         font-size: 12px;
         display: block;
+    }
+    .FooterStr {
+        color: #E5E5E5;
+        font-size: 15px;
     }
 }

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SeatSelector_307",
   "resources": {
-    "hash": "sha256-icaeZGGT45HC1IvadmA5Dwwol8iPsjy4mXH5NFVIHIA=",
+    "hash": "sha256-IuMUvzW96J1xgoJLJocii2F1jFjegHV+L9Aw3edD/ww=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.nx1rcsrfjr.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -31,7 +31,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-6187ynEahDlSLMBvD4vAmiLpZ3clRb5xu6rM7O8AxNo=",
       "Microsoft.JSInterop.wasm": "sha256-YrrPPJg6rA/Bmx1sladSdAwoqL78YSP+3xcjhBg0bnc=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-ZyIqQss3I64BQC2gc7JEDrkYq14vXKEXuw5vBJ5oFYM=",
-      "SeatSelector_307.wasm": "sha256-l1h8Eg8kcP+iFZE1FV7akrL5ejz7L9sJ3DOjwcaD0pI=",
+      "SeatSelector_307.wasm": "sha256-F0ERxnstEQn+o21F3F9Zh402gdW7R+H/S2HOaJnQAYQ=",
       "System.Collections.Concurrent.wasm": "sha256-hcJzzCFysdsZwkKtaDyF6EsGEfMnqT9u7dGZXk0jTMc=",
       "System.Collections.wasm": "sha256-JTuz3Mt5oZ857FQDm9/WtkIR7H56OBskEKE5mKFx1A0=",
       "System.ComponentModel.wasm": "sha256-RLeTQOOEEy4QXGeQLyLNY8k+aaF4W/EDE4Gx/TW+zxY=",
