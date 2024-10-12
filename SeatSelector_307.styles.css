@@ -176,7 +176,7 @@ textarea[b-oi9pha6zom] {
         margin: 10px auto;
         font-size: 4vi;
         display: block;
-        text-wrap: balance;
+        word-wrap: anywhere;
     }
 
     .frame[b-g658nyaboh] {
