@@ -25,6 +25,7 @@ footer[b-93pn9bphqg] {
 h3[b-oi9pha6zom] {
     text-align: center;
 }
+
 textarea[b-oi9pha6zom] {
     resize: none;
     overflow-wrap: normal;
@@ -81,20 +82,18 @@ textarea[b-oi9pha6zom] {
 }
 
 .outputMap[b-oi9pha6zom] {
-    max-width: 95vw;
     width: fit-content;
     height: fit-content;
     margin: 40px auto;
-    padding: 50px;
-    
-
+    padding: 20px 0 0 0;
+    background-color: #9CB6BE;
+    border-radius: 20px;
+    left: 0;
 }
     .outputMap table[b-oi9pha6zom] {
         width: 100%;
         height: 100%;
-        background-color: #9CB6BE;
-        border-radius: 20px;
-        padding: 30px;
+        padding: 10px;
         margin: auto;
     }
 .seatRect[b-oi9pha6zom] {
@@ -110,10 +109,18 @@ textarea[b-oi9pha6zom] {
         font-family: Consolas, Courier New, Courier, monospace;
         color: #E5E5E5;
         text-align: center;
-        font-size: 27.5px;
-        font-weight: 900;
+        font-size: 22.5px;
+        font-weight: bolder;
         margin: 5px;
-        
+    }
+    .seatRect .stunum[b-oi9pha6zom] {
+        font-size: 30px;
+        background-color: #BFAE9D;
+        border-radius: 5px;
+        padding: 2px;
+        display: block;
+        color: #45616A;
+        height: 35px;
     }
 .SummonBtn[b-oi9pha6zom] {
     background-color: #45616A;
@@ -138,6 +145,75 @@ textarea[b-oi9pha6zom] {
     text-align: center;
     display: block;
     background-color: transparent;
+    vertical-align: central;
+}
+
+.tablestr[b-oi9pha6zom] {
+    margin: -5px auto;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    background-color: #45616A;
+    height: fit-content;
+    width: fit-content;
+    color: #E5E5E5;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.mapborder[b-oi9pha6zom] {
+    padding: 30px;
+    display: flex;
+}
+
+ul[b-oi9pha6zom] {
+    list-style-type: none;
+    margin: 40px;
+    padding: 10px;
+    width: 400px;
+    height: 750px;
+    border-radius: 10px;
+    border: 3px #9CB6BE solid;  
+    overflow-y: scroll;
+}
+
+.hor[b-oi9pha6zom] {
+    position: absolute;
+    right: 0;
+}
+
+    .hor .logtitle[b-oi9pha6zom]{
+        font-family: Consolas, Courier New, Courier, monospace;
+        text-align: center;
+    }
+
+.logtext[b-oi9pha6zom] {
+    text-align: left;
+    overflow-wrap: anywhere;
+    font-family: Consolas, Courier New, Courier, monospace;
+}
+
+.stuinfo[b-oi9pha6zom] {
+    color: #E5E5E5;
+    font-size: 10px;
+    text-align: center;
+}
+
+.box[b-oi9pha6zom] {
+    margin: 5px 5px;
+    
+}
+
+.boxborder[b-oi9pha6zom] {
+    display: flex;
+    width: 10vmax;
+    margin: 4px;
+}
+.boxtext[b-oi9pha6zom] {
+    font-family: Consolas, Courier New, Courier, monospace;
+    vertical-align: central;
+    margin: auto;
 }
 /* /Pages/Home.razor.rz.scp.css */
 @media (max-width: 699.85px) {
