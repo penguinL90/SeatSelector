@@ -39,7 +39,6 @@
         content: "An error has occurred."
     }
 
-
 .loading-progress {
     position: relative;
     display: block;
@@ -75,19 +74,4 @@
 
 code {
     color: #c02d76;
-}
-
-html, body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #B7D7E1;
-}
-
-h1:focus {
-    outline: none;
-}
-
-@media (max-width: 699.85px) {
-    html {
-        font-size: 3vmin;
-    }
 }
